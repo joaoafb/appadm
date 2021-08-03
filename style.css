@@ -72,7 +72,10 @@ body {
     margin: 0 auto;
     padding: 4px;
     position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
     width: 70%;
+   
     top: 30%;
     left: 0%;
 }
