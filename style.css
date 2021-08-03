@@ -60,7 +60,6 @@ body {
 .btn {
     outline: none;
     background-color: transparent;
-    
     border-radius: 40px;
     box-sizing: border-box;
     color: #00a84f;
@@ -75,7 +74,6 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     width: 70%;
-   
     top: 30%;
     left: 0%;
 }
