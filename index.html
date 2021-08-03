@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="box" class="box">
+
+
+        <h1 id="titulo" class="titulo">Escolha o Dia:</h1>
+
+        <a id="btn" class="btn" href="#">
+            <span>Segunda</span>
+        </a>
+        <br>
+        <a id="btn2" class="btn" href="#">
+            <span>Quarta</span>
+        </a>
+        <br>
+        <a id="btn3" class="btn" href="#">
+            <span>Sexta</span>
+        </a>
+
+
+        <img id="btnmenu" onclick="menu()" class="btnmenu" src="menu.png" alt="">
+
+
+
+    </div>
+    <img id="btnfechar" onclick="fechar()" class="btnmenufechar" src="menu.png" alt="">
+
+    <div class="menu" id="menu">
+        <label class="titulomenu" for="">Modo de Uso</label><br><br>
+        <select name="" class="modocor" id="">
+           <option class="opcoes" value="">Simples</option>
+           <option class="opcoes"  value="">Normal</option>
+       </select>
+        <br>
+        <label class="titulomenu" for="">Tema</label><br><br>
+        <select name="" class="modocor" id="">
+          <option class="opcoes"  value="">Claro</option>
+          <option class="opcoes"  value="">Escuro</option>
+      </select>
+        <br>
+        <button class="btnaplicar">Aplicar</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
